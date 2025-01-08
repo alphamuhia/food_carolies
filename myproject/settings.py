@@ -90,12 +90,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # # 'PASSWORD': 'petermuhia',
 # # 'HOST': 'localhost',
 # # 'PORT': '5432',
-# # }
-# 'default': dj_database_url.parse('')
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgresql://food_tracker_yxmw_user:PnhnzB6N4eyyw6CIxWfIAj3pW9Lwi8Qw@dpg-ctuco35umphs73emcc3g-a.oregon-postgres.render.com/food_tracker_yxmw')
+    'default': dj_database_url.parse('postgresql://database_xft5_user:Lvrwrw4KG7SmViaqmsDf0Lgw75klxEf7@dpg-ctv8if1opnds739d4190-a.oregon-postgres.render.com/database_xft5')
 }
 
 
