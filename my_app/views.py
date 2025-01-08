@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db.models import Sum
 from django.contrib import messages
-from .models.models import FoodItem
+from .models import FoodItem
 from .form import FoodItemForm
 
 def home(request):

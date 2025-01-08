@@ -1,5 +1,5 @@
 from django import forms
-from .models.models import FoodItem
+from .models import FoodItem
 
 class FoodItemForm(forms.ModelForm):
     class Meta:
@@ -9,3 +9,4 @@ class FoodItemForm(forms.ModelForm):
             'name': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Food Name'}),
             'calories': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Calories'}),
         }
+
